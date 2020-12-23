@@ -1,0 +1,97 @@
+*{
+    margin: 0 auto;
+    padding: 0 auto;
+}
+
+/* Header */
+
+.wrapper{
+    width: 100%;
+    height: auto;
+    background-color: rgb(250, 250, 250);
+}
+
+.header{
+    width: 100%;
+    height: 100px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 1px 1px 10px rgb(39, 38, 38);
+    margin-bottom: 5px;
+}
+
+.header .logo img{
+    width: 100px;
+    margin-left: 50px;
+}
+
+.header .menu-utama{
+    float: right;
+}
+
+.header .menu-utama ul{
+    float: left;
+    margin-top: -70px;
+    margin-right: 200px;
+  
+}
+
+.header .menu-utama ul li{
+    float: left;
+    margin-right: 30px;
+    list-style: none;
+    font-weight: bold;
+    color: rgb(43, 43, 43);
+    text-transform: uppercase;
+}
+
+.header .menu-utama ul li:hover{
+    color: tomato;
+    border-bottom: 2px solid  tomato;
+    margin-top: 2px;
+    transition-duration: 0.2s;
+}
+
+.header .menu-utama .active{
+    color: tomato;
+}
+
+/* End Header */
+
+/* content */
+.content .card .card-body h6{
+    margin-top: -28px;
+    margin-left: -5px;
+}
+
+.content .card .card-body h4{
+    margin-top: -25px;
+    margin-left: 900px;
+    font-size: 15px;
+}
+
+.content .card .card-body form{
+    float: right;
+    margin-right: 100px;
+}
+
+.content .card .card-body #cari{
+    float: right;
+    margin-top: -54px;
+    margin-right: -43px;
+}
+
+/* footer */
+
+.container .footer{
+    width: 100%;
+    background-color: rgb(102, 102, 102);
+}
+
+.container .footer span{
+    color: white;
+    font-size: 15px;
+
+}
+
+
+
